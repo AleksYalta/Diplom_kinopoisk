@@ -1,0 +1,6 @@
+API_KEY = "KGTP18R-R73MDD4-MSFFZTB-6M2KAC3"
+
+BASE_API_URL = "https://api.kinopoisk.dev/v1.4/movie"
+SEARCH_API_URL = f"{BASE_API_URL}/search"
+HEADERS = {"X-API-KEY": API_KEY}
+
