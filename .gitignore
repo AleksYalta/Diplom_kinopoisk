@@ -1,28 +1,38 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyo
+
+# Distribution / packaging
 *.egg
 *.egg-info/
 dist/
 build/
 
-# IDE
-.vscode/
-.idea/
-
-# Environment
+# Virtual environments
 .env
-.venv
+.venv/
 env/
 venv/
 
-# Allure
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Allure test reports
 allure-results/
 allure-report/
 
-# Selenium logs
+# Selenium/WebDriver logs
 *.log
 
-# OS
-.DS_Store
-Thumbs.db
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebooks checkpoints (если используешь)
+.ipynb_checkpoints/
